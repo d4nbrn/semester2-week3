@@ -7,6 +7,7 @@
  */
 
 #include <stdio.h>
+
 #include <math.h>
 
 int main( void ) {
@@ -15,6 +16,9 @@ int main( void ) {
     float b = -5.0;
     float c = 6.0;
     float root1, root2;
+
+    root1 = (-b + sqrt(b^2-4*a*c))/2*a
+    root2 = (-b - sqrt(b^2-4*a*c))/2*a
 
     /*
      * Implement the formula for the 2 roots of a quadratic.
