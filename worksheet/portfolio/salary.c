@@ -23,7 +23,7 @@ int main( void ) {
 
     takeHome = salary - NI_deduction - Tax_deduction;
 
-    printf("Salary £%.0f\n", salary);
+    printf("Salary £%.2f\n", salary);
     printf("NI contribution £%.2f\n", NI_deduction);
     printf("Tax contribution £%.2f\n", Tax_deduction);
     printf("Take home salary £%.2f\n", takeHome);
